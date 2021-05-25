@@ -172,7 +172,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 5
 
     ResourceForEvaluateCisBenchmarkingPreconditions:
@@ -306,7 +306,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     EvaluateRootAccountFunctionPermission:
@@ -478,7 +478,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallVpcFlowLogLambda:
@@ -548,7 +548,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallVpcDefaultSecurityGroupsLambda:
@@ -663,7 +663,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallMfaForUsersLambda:
@@ -757,7 +757,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallEvaluatePolicyPermissionsLambda:
@@ -847,7 +847,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallEvaluateUserPolicyAssociationLambda:
@@ -963,7 +963,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallEvaluateCloudTrailLambda:
@@ -1079,7 +1079,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallEvaluateCloudTrailBucketLambda:
@@ -1175,7 +1175,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallEvaluateCloudTrailLogIntegrityLambda:
@@ -1257,7 +1257,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallInstanceRoleUseLambda:
@@ -1354,7 +1354,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallEvaluateKeyRotationLambda:
@@ -1459,7 +1459,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 120
 
     EvaluateConfigInAllRegionsFunctionPermission:
@@ -1541,7 +1541,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     ConfigPermissionToCallVpcPeeringRouteTablesLambda:
@@ -1624,7 +1624,7 @@
         Handler: index.lambda_handler
         MemorySize: 128
         Role: !GetAtt MasterConfigRole.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 5
 
     ResourceForGetCloudTrailCloudWatchLog:
@@ -1880,7 +1880,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt RoleForCloudWatchEvents.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 5
 
     LambdaPermissionForCloudTrailCloudWatchEventRules:
@@ -2324,7 +2324,7 @@
         Handler: index.lambda_handler
         MemorySize: 1024
         Role: !GetAtt RoleForDisableUnusedCredentialsFunction.Arn
-        Runtime: python2.7
+        Runtime: python3.6
         Timeout: 10
 
     LambdaPermissionForDisableUnusedCredentials:
